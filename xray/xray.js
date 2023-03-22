@@ -338,7 +338,7 @@ function addCSS (){
 		var theCSS=document.createElement('link');
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='https://westciv.com/xray/xraysf2.css';
+		theCSS.href='https://py660.github.io/xray/xraysf2.css';
 		
 		var theCSS = theHead[0].appendChild(theCSS);
 	}
@@ -348,7 +348,7 @@ function addCSS (){
 		var theCSS = theHead[0].appendChild(document.createElement('link'));
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='https://westciv.com/xray/xraywin.css';
+		theCSS.href='https://py660.github.io/xray/xraywin.css';
 	}
 	
 	else {
@@ -356,7 +356,7 @@ function addCSS (){
 		var theCSS=document.createElement('link');
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='https://westciv.com/xray/xraycore.css';
+		theCSS.href='https://py660.github.io/xray/xraycore.css';
 		var theCSS = theHead[0].appendChild(theCSS);
 		
 	}
